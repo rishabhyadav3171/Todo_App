@@ -1,0 +1,62 @@
+.todo-container{
+  max-width: 400px;
+  margin:  0 auto;
+  padding: 20px;
+  background: #09ad66;
+  box-shadow: 0px 10px 15px rgba(220, 235, 57, 0.3);
+  border-radius: 5px;
+}
+h1{
+  text-align: center;
+  color: gold;
+}
+.enterinp{
+  width: 70%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+}
+.inpbtn{
+  padding: 11px 30px;
+  background-color: green;
+  color: white;
+  border-style: none;
+  font-size: 1rem;
+   cursor: pointer;
+   border-radius: 0px 5px 5px 0px;
+}
+.todo-list{
+  list-style: none;
+  padding: 5px;
+}
+.todo-item{
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.todo-item.completed .todo-text{
+  text-decoration: line-through;
+  color: rgb(56, 11, 235);
+}
+.todo-item input[type = "checkbox"]{
+  margin-right: 10px;
+}
+.todo-text{
+  flex: 1;
+  
+}
+.todo-item button{
+  font-size: 20px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+span{
+  font-size: 20px;
+}
+.checkboxhandle{
+width: 20px;
+height: 20px;
+}
